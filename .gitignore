@@ -6,7 +6,7 @@ nbproject
 .DS_Store
 Thumbs.db
 
-vendor
+/vendor
 composer.phar
 
 .php-cs-fixer.cache
@@ -15,6 +15,7 @@ composer.phar
 phpunit.phar
 phpunit.xml
 .phpunit.result.cache
-tests/data
+/tests/data
+/composer.lock
 
 example.php

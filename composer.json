@@ -1,12 +1,12 @@
 {
     "name": "lostinvlg/jwt",
-    "description": "JWT Builder and Parser based on firebase/php-jwt",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Lostinvlg\\Jwt\\": "src/"
-        }
+    "description": "Simple JWT Builder and Parser",
+    "homepage": "https://github.com/lostinvlg/jwt",
+    "support": {
+        "source": "https://github.com/lostinvlg/jwt",
+        "issues": "https://github.com/lostinvlg/jwt/issues"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Viktor Chukleev",
@@ -22,6 +22,11 @@
         "phpunit/phpunit": "^9.5",
         "friendsofphp/php-cs-fixer": "^3.7",
         "vimeo/psalm": "^4.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lostinvlg\\Jwt\\": "src/"
+        }
     },
     "config": {
         "allow-plugins": {

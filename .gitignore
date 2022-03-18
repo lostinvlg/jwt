@@ -13,7 +13,6 @@ composer.phar
 
 .phpunit.cache
 phpunit.phar
-phpunit.xml
 .phpunit.result.cache
 /tests/data
 /composer.lock
